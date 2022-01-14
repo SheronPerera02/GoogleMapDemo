@@ -1,0 +1,61 @@
+.ParentContainer {
+  display: flex;
+  flex-direction: row;
+}
+.Map {
+  height: 100vh;
+  width: 50%;
+}
+
+.AutoComplete {
+  width: 50%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.Address {
+  height: 20px;
+}
+
+.LatLng {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.Input {
+  border-radius: 8px;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.Input:focus {
+  outline: none;
+}
+
+.DropDownContainer {
+  width: 50%;
+  -webkit-box-shadow: 0px 10px 15px -1px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 10px 15px -1px rgba(0, 0, 0, 0.28);
+  border-radius: 8px;
+}
+
+.DropDownItem {
+  background-color: transparent;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.DropDownItem:hover span {
+  color: royalblue;
+}
+
+.DropDownItemText {
+  font-size: 14px;
+}
